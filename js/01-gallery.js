@@ -19,7 +19,7 @@ galleryContainer.addEventListener('click', (evt) => {
 
  function onImageClick(evt) {
     instance = basicLightbox.create(`
-    <img src="${evt.target.dataset.source}">
+    <img src="${evt.target.dataset.source}" width="1280">
 `)
 instance.show()
 };
